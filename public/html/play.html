@@ -1,0 +1,21 @@
+<div class="col-md-3"></div>
+<div class="col-md-6">
+  <div class="thumbnail play-thumbnail">
+    <div ng-show="!card.hidden">
+      <a class="fa fa-refresh fa-3x" ng-click="getAnswer($index)"></a>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h1>{{card.question}}</h1>
+      <h4>{{card.category}}</h4>
+    </div>
+  <div>
+    <div ng-hide="!card.hidden">
+      <a class="fa fa-refresh" ng-click="getQuestion($index)"></a>
+      <h5>{{card.answer}}</h5>
+    </div>
+  </div>
+</div>
+<a class="fa fa-forward fa-5x" ng-click="changeCard()"></a>
+</div>

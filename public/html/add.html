@@ -1,0 +1,24 @@
+<div class="col-md-3"></div>
+<form ng-submit="createCard()" class="col-md-6" name="addForm">
+  <h4>Add your own trivia card</h4>
+  <br>
+  <div class="form-group">
+    <label>Category</label>
+    <input type="text" class="form-control" ng-model="newCard.category" required>
+  </div>
+  <br>
+  <div class="form-group">
+    <label>Question</label>
+    <input type="text" class="form-control" ng-model="newCard.question" required>
+  </div>
+  <br>
+  <div class="form-group">
+    <label>Answer</label>
+    <input type="text" class="form-control" ng-model="newCard.answer" required>
+  </div>
+  <br>
+  <br>
+  <div>
+    <button type="submit" class="btn btn-primary add">add</button>
+  </div>
+</form>

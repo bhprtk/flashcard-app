@@ -1,0 +1,52 @@
+.navbar-default {
+  text-align: center;
+  height: 100px;
+}
+.navbar-nav {
+  float: none;
+  display: inline-block;
+}
+.fa-title {
+  font-size: 64px;
+  margin: 20px;
+
+}
+.play-thumbnail {
+  margin-top: 30px;
+  text-align: center;
+  min-width: 400px;
+  min-height: 400px;
+  position: relative;
+  border: 1px solid;
+}
+.list-thumbnail {
+  min-width: 200px;
+  min-height: 200px;
+  position: relative;
+  border: 1px solid;
+  text-align: center;
+
+}
+.editDelete {
+  position: absolute;
+  padding-bottom: 5px;
+  bottom: 0;
+}
+
+.jumbotron {
+  height: 500px;
+  margin-top: 50px;
+}
+
+.fa-forward {
+  margin-left: 250px;
+}
+
+.search {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.add {
+  width: 100%;
+}

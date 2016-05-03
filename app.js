@@ -9,7 +9,7 @@ var routes = require('./routes/index');
 var api = require('./routes/api');
 
 var mongoose = require('mongoose');
-const MONGOURL = process.env.MONGO_URI || 'mongodb://localhost/flashcard-app';
+const MONGOURL = process.env.MONGODB_URI || 'mongodb://localhost/flashcard-app';
 mongoose.connect(MONGOURL, err => {
   console.log(err || `Connected to MongoDB ar ${MONGOURL}`);
 });
